@@ -1,0 +1,59 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Runtime data and generated artifacts
+backend/data/
+backend/mlruns/
+backend/test_mlflow.db
+backend/test_mlflow_artifacts/
+backend/full_out.txt
+backend/journey_out.txt
+backend/ops_out.txt
+backend/scratch_*.py
+*.db
+*.sqlite
+*.sqlite3
+
+# Node / Next.js
+node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/test-results/
+frontend/playwright-report/
+frontend/blob-report/
+frontend/.vercel/
+frontend/*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test and tool output
+test-results/
+playwright-report/
+blob-report/
+coverage/
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

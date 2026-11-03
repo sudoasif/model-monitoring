@@ -1,0 +1,15 @@
+.venv
+.env
+.env.*
+__pycache__
+*.pyc
+.pytest_cache
+.ruff_cache
+.mypy_cache
+data
+mlruns
+test_mlflow.db
+test_mlflow_artifacts
+tests
+*.md
+!requirements.txt
