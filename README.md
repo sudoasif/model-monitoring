@@ -1,5 +1,8 @@
 # Aperture MLOps
 
+[![CI](https://github.com/sudoasif/model-monitoring/actions/workflows/ci.yml/badge.svg)](https://github.com/sudoasif/model-monitoring/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 An end-to-end, production-oriented MLOps and model-monitoring platform. It trains real models, tracks them in MLflow, gates promotion behind human approval, serves single and batch predictions, and derives monitoring, drift, performance and alerts from stored prediction events.
 
 > **No mock dashboards.** Every number shown by the UI comes from a real database query, a real model fit, a real drift computation, or an explicitly labelled simulation. Synthetic traffic never starts by itself.
@@ -439,3 +442,9 @@ Endpoints:
 - [Deployment guide](docs/deployment.md) — Compose topology, low-cost VM sizing, migrations, backups, hardening, troubleshooting.
 - [Metrics and monitoring](docs/metrics.md) — product metrics, Prometheus metrics, drift statistics, performance labels, alert rules.
 - API reference — generated at `/api/docs` and `/api/redoc`.
+
+---
+
+## License
+
+Released under the [MIT License](LICENSE).
